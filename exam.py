@@ -24,7 +24,6 @@ fft2 = np.fft.fft(norm2)
 magnitude1 = np.abs(fft1)
 magnitude2 = np.abs(fft2)
 
-
 f1 = np.linspace(0,sr,len(magnitude1))
 
 left_f1 = f1[:int(len(magnitude1)/2)]
